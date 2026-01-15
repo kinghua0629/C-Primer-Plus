@@ -8,6 +8,9 @@ int main(void)
     printf("Are you worth your weight in platinum?\n");
     printf("Let's check it out.\n");
     printf("Please enter your weight in pounds: ");
+
+    getchar();
+    getchar();
     
     /* get input from the user                     */
     scanf("%f", &weight);
